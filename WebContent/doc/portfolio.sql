@@ -1,0 +1,22 @@
+CREATE TABLE `portfolio` (
+  `id` varchar(20) NOT NULL,
+  `license_num` varchar(200) DEFAULT '',
+  `license_grade` varchar(200) DEFAULT '',
+  `license_date` varchar(200) DEFAULT '',
+  `license_agency` varchar(200) DEFAULT '',
+  `in_name` varchar(200) DEFAULT '',
+  `in_period` varchar(200) DEFAULT '',
+  `in_grade` varchar(200) DEFAULT '',
+  `in_activity` varchar(200) DEFAULT '',
+  `out_name` varchar(200) DEFAULT '',
+  `out_period` varchar(200) DEFAULT '',
+  `out_grade` varchar(200) DEFAULT '',
+  `out_activity` varchar(200) DEFAULT '',
+  `test_name` varchar(200) DEFAULT '',
+  `test_date` varchar(200) DEFAULT '',
+  `test_agency` varchar(200) DEFAULT '',
+  `test_grade` varchar(200) DEFAULT '',
+  `test_score` varchar(200) DEFAULT '',
+  `etc` varchar(200) DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
